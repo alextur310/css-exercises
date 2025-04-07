@@ -8,10 +8,26 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
-    <p>Number 5 - I'm a class!</p>
+    <p class="odd">Number 1 - I'm a class!</p>
+    <div id="unique01">Number 2 - I'm one ID.</div>
+    <p class="odd" id="unique02">Number 3 - I'm a class, but cooler!</p>
+    <div id="unique03">Number 4 - I'm another ID.</div>
+    <p class="odd">Number 5 - I'm a class!</p>
+    <!-- The following line shows that if two classes are present which contain the same changes, they overwrite each other. The one that is put in the order lower than the other, given they both change the same values, will overwrite the one above it. Which was kinda obvious but I needed to experiment to make sure. Plus I found out that the order in which the class id's are written in the HTML does not matter. Only the order inside the .css file does. -->
+    <div class="unique01 mod01">I'm a test to see which changes overwrite which!</div>
+    <!-- I read further and it looks like you can have two class id's in one group inside a .css to cut down on the repitition, and freely add other classes to the bundle if you want them to share some common charachteristics. If you want these classes to also have other charachteristics which are different, you can add those charachteristics separately. Therefore there's no need to have anything overwrite anything else, therefore causing no possible confusion. -->
+
+    <div>
+      <div class="subsection header">Latest Posts</div>
+      <p class="subsection" id="preview">
+        This is where a preview for a post might go.
+      </p>
+    </div>
+
+    <div>
+      <div class="subsection one">I have both Subsection and Header</div>
+      <p class="subsection two"> I have subsection and preview</p>
+    </div>
+    
   </body>
 </html>

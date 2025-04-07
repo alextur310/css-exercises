@@ -1,0 +1,42 @@
+.odd {
+    background-color: rgb(255, 162, 162);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#unique01 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#unique02 {
+    font-size: 24px;
+}
+
+#unique03 {
+    background-color: rgb(143, 238, 143);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mod02 {
+    color: blue;
+    font-size: 10px;
+}
+
+.mod01 {
+    color: red;
+    font-size: 60px;
+}
+
+.subsection.header {
+    color: red;
+  }
+  
+  .subsection#preview {
+    color: blue;
+  }
+
+  .subsection {
+    color: brown;
+    background-color: blueviolet;
+  }
