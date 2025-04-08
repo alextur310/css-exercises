@@ -4,11 +4,11 @@ body {
 }
 
 .one {
-  background: pink;
-  border: 3px solid blue;
-  /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+    background: pink;
+    border: 3px solid blue;
+    padding: 30px;
+    margin: 10px;
+
 }
 
 .two {
@@ -19,10 +19,11 @@ body {
 }
 
 .three {
-  background: peachpuff;
-  border: 3px solid brown;
-  width: 200px;
-  /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+    background: peachpuff;
+    border: 3px solid brown;
+    /* width: 200px; */
+    padding: 25px;
+    margin-left: 350px;
+    margin-top: 50px;
+
 }
