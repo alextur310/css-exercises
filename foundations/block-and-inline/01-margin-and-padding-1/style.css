@@ -6,8 +6,8 @@ body {
 .one {
     background: pink;
     border: 3px solid blue;
-    padding: 30px;
-    margin: 10px;
+    padding: 32px;
+    margin: 12px;
 
 }
 
@@ -22,8 +22,8 @@ body {
     background: peachpuff;
     border: 3px solid brown;
     /* width: 200px; */
-    padding: 25px;
+    padding: 32px;
     margin-left: 350px;
-    margin-top: 50px;
+    margin-top: 48px;
 
 }
