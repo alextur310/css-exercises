@@ -8,7 +8,8 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  margin: 7px;
+  padding: 2px 32px;
 }
 
 ul {
@@ -17,9 +18,34 @@ ul {
 }
 
 a {
-  font-size: 22px;
+  font-size: 18px;
   background: white;
-  padding: 8px;
+  padding: 7px;
+  margin: 5px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-links ul {
+  display: flex;
+  width: 200px;
+  padding-inline: 20px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+.right-links ul {
+  display: flex;
+  width: 200px;
+  padding-inline: 20px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
 }
