@@ -48,6 +48,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {
@@ -66,4 +67,40 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.up {
+  display: flex;
+  margin: 20px;
+  margin-bottom: 10px;
+  gap: 20px;
+  height: 20px;
+}
+
+.up > .header {
+  height: 20px;
+  font-weight: 700;
+}
+
+.text {
+  width: 480px;
+}
+
+.text > p {
+  display: flex;
+  font-size: 14px;
+  max-width: 370px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 55px;
+  justify-self: center;
+
+}
+
+.bottom {
+  display: flex;
+  gap: 5px;
+  justify-content:flex-start;
+  margin-left: 84px;
+  margin-bottom: 15px;
 }
